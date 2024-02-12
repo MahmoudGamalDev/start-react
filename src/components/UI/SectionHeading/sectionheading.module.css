@@ -1,0 +1,48 @@
+.icon::before,
+.blueIcon::before {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 4px;
+  right: 18%;
+  top: 50%;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.icon::after,
+.blueIcon::after {
+  content: "";
+  position: absolute;
+  width: 25%;
+  height: 4px;
+  left: 18%;
+  top: 50%;
+  background-color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.blueIcon::after , .blueIcon::before {
+  background-color: #2c3e50;
+}
+
+svg {
+  width: 1.5rem;
+  fill: white;
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: #2c3e50;
+}
