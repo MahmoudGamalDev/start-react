@@ -1,0 +1,10 @@
+.overlay {
+  display: none;
+  background-color: rgb(26, 188, 156, 90%);
+  cursor: pointer;
+}
+
+.box:hover .overlay {
+  display: flex;
+}
+
